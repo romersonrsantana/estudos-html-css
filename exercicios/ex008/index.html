@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatações de Textos</title>
+    <title>Outras formatações</title>
 </head>
 <body>
-    <h1>Principais formatações</h1>
-    <h2>Negrito/destaque</h2>
-    <p>Nesta frase temos um <b>termo em negrito usando a tag &lt;b&gt; </b> (não semântico), simplismente você escolheu destacar o termo.</p>
-    <p>Nesta frase, tenho um termo em <strong>termo em destaque</strong> usando a tag &lt;strong&gt; (semântico), neste caso o termo em destaque é forte, carregado de sentido.</p>
-    <h2>Itálico / Ênfase</h2>
-    <p>Nesta frase temos <i>um termo em Itálico</i> usando a tag &lt;i&gt; (não semântica) simplismente uma forma em itálico.</p> <!--Eitar usar as tags <b> e <i> por elas serem relacionadas a formas e não em semântica; -->
-    <p>Nesta frase temos <em>um termo em ênfase</em> usando a tag &lt;em&gt; (semântico)</p>
-    <h2>Texto marcado</h2>
-    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag &lt;mark&gt;;</p>
-    <p>E neste parágrafo temos <mark style="background-color: rgb(26, 192, 164);">porém com o marcador de outra cor;</mark> usando a tag &lt;style&gt;;</p>
-    <h2>Texto com letras pequenas</h2>
-    <p>Esta teg é usada semanticamente para dar sentido <small>as letras pequenas</small>, ex.: contratos; tag &lt;small&gt;;</p>
-    <h2>Texto deletado</h2>
-    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. Usando a tag &lt;del&gt;;</p>
-    <h2>Texto inserido</h2>
-    <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase  e indicar que ele foi inserido depois. Usando a tag &lt;ins&gt;;</p>
-    <h2>Texto sobrescrito</h2>
-    <p>Para inserir coisas do tipo x<sup>20</sup>+3. Usamos a tag &lt;sup&gt;;</p>
-    <h2>Texto sub-escrito</h2>
-    <p>Para inserir coisas do tipo H<sub>2</sub>O. Usamos a tag &lt;sub&gt;;</p> 
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é inscrito em linguagem JS.</p>
+    <p>
+    <pre>
+ <code>
+num = int(imput('Digite um número'))
+if num % 2 == 0:
+    printf(f'O número {num} é PAR')
+else:
+    printf(f'O número {num} é IMPAR')
+printf('Fim do programa')
+</code>
+    </pre>
+    </p>
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
+    <h2>Citacões completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos: <blockquote>A diferença entre elementos iline e um bloco de textos é importante. Os elementos neste capítulo descrevem os blocos de textos.</blockquote></p>
+    <h2>Abreviações</h2>
+    <p>Estou aprendendo <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
 </body>
 </html>
