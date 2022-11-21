@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Dinâmica</title>
+</head>
+<body>
+    <h1>Testando foto dinâmica</h1>
+    <h2>Objetivo: </h2>
+    
+    <ul>
+        <li>Colocar no site uma foto de três tamanhos que se adapte ao dispositivo usado pelo usuário.</li>
+        <ul>
+            <li>Celular;</li>
+            <li>Tablete;</li>
+            <li>Notebook;</li>
+        </ul>
+    </ul>
+    <picture>
+        <source media="(min-width:1000px )" srcset="img/img-950.jpg" type="image/jpg">
+        <source media="(min-width:700px )" srcset="img/img-650.jpg" type="image/jpg">
+        <img src="img/img-300.jpg" alt="foto do nascer do sol em um campo">
+    </picture>
+</body>
+</html>
