@@ -11,6 +11,7 @@ body{
 main{
     background-color: white;
     border-radius: 10px;
+    box-shadow: 5px 5px 15px #57453b85;
     width: 600px;
     margin: auto;
     padding: 10px;
