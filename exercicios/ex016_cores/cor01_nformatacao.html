@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cores em CSS</title>
+</head>
+<main>
+    <body>
+        <h1>Exemplo de cores</h1>
+    
+        <!--Representação por nomes-->
+        <h2>Representação por nomes</h2>
+        <p> As cores podem ser representadas por nomes, digitando a tag com o comando, exemplo: <br>
+            <mark><code>style = "background-color: <strong><abbr title="azul">blue</abbr></strong>; color: <strong><abbr title="branco">white</abbr></strong>"</code></mark><br>
+        </p>
+    
+        <!--Representação por códigos Hexadecimais-->
+        <!--Decimal: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9-->
+        <!--Hexadecimal: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F-->
+        <h2> Representação por códigos Hexadecimais</h2>
+        <p>Considerando essa forma de representação é necessário compreender dois tipos de bases númericas: <br>
+            <dl>
+                <dt><abbr title="Possui dez dígitos">Decimal</abbr>: </dt>
+                    <dd>0,1,2,3,4,5,6,7,8,9</dd>
+                <dt><abbr title="Com dezesseis dígitos">Hexadecimal</abbr></dt>
+                    <dd>0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F</dd>
+            </dl>
+            Considerando o segundo caso, o código hexadecimal também pode ser usado como forma de representação des cores no CSS, seguindo o exemplo de azul e branco temos: <br>
+            <code><mark>style="background-color:#0000ff ;color: #ffff;"</mark></code>
+    
+        </p>
+    
+        <!--Representação em RGB (Red, Green, Blue)-->
+        <h2 >Representação em RGB</h2>
+        <p>Essa forma de representação em RGB, significa que as cores serão formadas com base no <abbr title="vermelho, verde, blue">red, green, blue</abbr> <br> O código usado para essa marcação é: <br> <code><mark>style="background-color: rgb(0,0,255) ;color: rgb(255,255,255);"</mark></code></p>
+    
+        <!--Representação por HSL (Hue, Sturation, Luminosity)-->
+        <h2>Representação por HSL</h2>
+        <p>
+            <dl><dt>HSL</dt>
+                <dd><abbr title="Matiz, Saturação, Luminosidade">Hue, Sturation, Luminosity</abbr></dd>
+            </dl>
+        O código considerado para essa forma de representação, considerando a aplicação de azul e branco é: <br> <code><strong>style="background-color: <mark>hsl(240,100%,50%);color: hsl(0,0%,100%)</mark></strong>;"</code>
+        </p>
+    
+        <h2>Representação por Transparência</h2>
+        <p>Para que se tenha um efeito transparente é acrescentado por definição no código RGB a letra A de: <dl><dt>Alfe</dt><dd>significa transparência.</dd></dl> neste caso o código fica RGBA para um efeito transparente, como exemplo: <br><code>style="background-color: <mark>rgba(10, 10, 216, 0);color: rgba(255, 255, 255, 0.87);</mark>"</code></p>
+    </body>
+</main>
+</html>
