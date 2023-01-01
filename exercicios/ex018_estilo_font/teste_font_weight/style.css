@@ -17,7 +17,7 @@ h1{
     font-size: 5em;
     font-weight: lighter;
     font-style: italic;
-
+    
 }
 p{
     text-align: justify;
@@ -25,3 +25,4 @@ p{
     font-weight: 600;
     font-style: italic;
 }
+mark{background-color: #0781d94b ;}
