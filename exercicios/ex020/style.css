@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body{
+background-color: aqua;
+}
+
+div{
+    background-color: rgb(220, 243, 245);
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+div:hover{
+    background-color: rgba(36, 36, 151, 0.699);
+}
+
