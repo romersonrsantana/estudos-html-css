@@ -11,10 +11,32 @@ header{
     text-align: center;
     margin: 10px;
 }
+nav{
+    background-color: rgba(0, 0, 255, 0.404);
+    padding: 3px;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: bolder;
+
+}
+nav > a:hover {
+    text-decoration: underline;
+}
 main{
     background-color: white;
     padding: 10px;
     margin: 16px;
+}
+article{
+    background-color: lightslategray;
+    padding: 5px;
+}
+article > aside {
+    background-color: rgba(35, 40, 44, 0.89);
+
 }
 footer{
     background-color: black;
