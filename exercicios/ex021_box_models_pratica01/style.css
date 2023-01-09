@@ -14,7 +14,7 @@ header{
 nav{
     background-color: rgba(0, 0, 255, 0.404);
     padding: 3px;
-    box-shadow: 8px 7px 11px black;
+    box-shadow: 8px 7px 11px rgba(0, 0, 0, 0.411);
 }
 nav > a {
     text-decoration: none;
