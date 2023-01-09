@@ -9,7 +9,8 @@ header{
     background-color: white;
     padding: 10px;
     text-align: center;
-    margin: 10px;
+    margin: 16px;
+    
 }
 nav{
     background-color: rgba(0, 0, 255, 0.404);
@@ -31,6 +32,8 @@ main{
     background-color: white;
     padding: 10px;
     margin: 16px;
+    border-radius: 10px 0px;
+    box-shadow: 4px 4px 7px 2px rgba(0, 0, 0, 0.37);
 }
 article{
     background-color: lightslategray;
