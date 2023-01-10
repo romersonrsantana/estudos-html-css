@@ -4,7 +4,7 @@ body{
     background-color:rgba(98, 243, 105, 0.562);
 }
 header{
-    background-color: rgba(0, 158, 11, 0.534);
+    background-image: linear-gradient(To top, rgba(100, 179, 105, 0.637), rgba(0, 158, 11, 0.781));
     height: 178px;
     padding: 12px;
     margin: -21px -8px 2px -8px;
@@ -25,4 +25,20 @@ nav > a {
     margin-right: 30px;
     color: white;
     font-weight: bolder;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+    background-color: rgba(106, 253, 113, 0.562)
+
+}
+main{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 12px;
+    text-align: justify;
+}
+p{
+    text-indent: 20px;
 }
