@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgba(98, 243, 105, 0.562);
+}
+header{
+    background-color: rgba(0, 158, 11, 0.534);
+    height: 178px;
+    padding: 12px;
+    margin: -21px -8px 2px -8px;
+    color: white;
+}
+header > h1{
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+nav{
+    background-color:rgba(35, 151, 43, 0.534);
+    padding: 3px;
+    margin: -2px -9px 2px -9px;
+}
+nav > a {
+    margin-right: 30px;
+    color: white;
+    font-weight: bolder;
+}
