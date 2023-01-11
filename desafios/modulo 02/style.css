@@ -42,3 +42,23 @@ main{
 p{
     text-indent: 20px;
 }
+.lista{
+    background-color: white;
+    width: 900px;
+    margin: auto;
+    padding: 12px;
+    text-align: justify;
+}
+article{
+    background-color:rgba(79, 252, 88, 0.363);
+    padding: 12px;
+    border-radius: 12px;
+    margin: -27px 6px -1px 6px;
+
+}
+footer{
+    background-color: rgba(3, 39, 3, 0.637);
+    text-align: center;
+    margin: auto;
+    color: white;
+}
