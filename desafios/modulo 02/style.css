@@ -66,4 +66,10 @@ footer{
     color: rgba(2, 77, 2, 0.959);
     font-weight: bolder;
 }
-    
+h1{
+    color: green;
+}
+h2{
+    color: green;
+    background-image: linear-gradient(to right, rgba(107, 248, 107, 0.842), rgba(149, 196, 149, 0.548));
+}
