@@ -42,6 +42,7 @@ header > h1{
     font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.301);
+    font-weight: normal;
 }
 header > p{
     color: white;
@@ -58,7 +59,7 @@ nav{
     box-shadow: 0px 0px 0px black;
 }
 nav > a{
-    color: white;
+    color: var(--cor1);
     border-radius: 5px;
     padding: 12px;
     text-decoration: none;
@@ -92,11 +93,15 @@ main img.pequena{
 main h1{
     color: var(--cor5);
     font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+
 }
 main h2{
     font-family: var(--fonte-android);
     color: var(--cor4);
-    font-size: 1.3em;
+    font-size: 1.8em;
+    font-weight: normal;
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 9px;
     border-radius: 1.1px;
