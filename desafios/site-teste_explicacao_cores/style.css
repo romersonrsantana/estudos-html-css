@@ -1,2 +1,38 @@
 @charset "UTF-8";
 
+:root{
+    --cor01:#faf62a;
+    --cor02:#ff760e;
+    --cor03:#df40e7;
+    --cor04:#63A3FF;
+    --cor05:#2FF555;
+
+    --font-padrao: Arial, verdana, helvetica, sans-serif;
+    --font-destaque: cursive;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor04);
+}
+header{
+    background-color: var(--cor01);
+}
+nav{
+    background-color: var(--cor01);
+}
+main{
+    background-color: white;
+    min-width: 420px;
+    max-width: 800px;
+    margin: auto;
+    padding: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.712);
+    color: white;
+}
