@@ -19,9 +19,39 @@ body{
 }
 header{
     background-color: var(--cor01);
+    text-align: center;
+}
+header h1{
+    font-family: var(--font-destaque);
+    color: var(--cor03);
+    font-weight: bolder;
+    font-size: 3em;
+    padding-top: 16px;
+    padding-bottom: 15px;
+}
+header p{
+    font-family: var(--font-padrao);
+    color: var(--cor04);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 1.5em;
 }
 nav{
-    background-color: var(--cor01);
+    background-color:var(--cor01);
+    padding: 15px 30px;
+}
+nav a{
+    color: var(--cor03);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.3em ;
+    padding-right: 12px;
+}
+nav a:hover{
+    color: white;
+    background-color: var(--cor03);
+    border-radius: 6px;
+    padding: 6px;
 }
 main{
     background-color: white;
@@ -31,6 +61,16 @@ main{
     padding: 12px;
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
+}
+main h2{
+    color: white;
+    background-image: linear-gradient(to right, var(--cor03), transparent);
+    padding-left: 21px;
+    margin-left: -12.3px;
+    font-family: var(--font-destaque);
+    font-size: 1.8em;
+    
+
 }
 footer{
     background-color: rgba(0, 0, 0, 0.712);
