@@ -77,7 +77,11 @@ main p{
     line-height: 2.2em;
     font-family: var(--font-padrao);
 }
+main > aside{
+    
+}
 footer{
     background-color: rgba(0, 0, 0, 0.712);
     color: white;
+    text-align: center;
 }
