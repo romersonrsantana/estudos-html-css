@@ -63,7 +63,7 @@ main{
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
 }
-main h2{
+.primeiro{
     color: white;
     background-image: linear-gradient(to right, var(--cor03), transparent);
     padding-left: 21px;
@@ -76,9 +76,15 @@ main img{
     display: block;
     margin: auto;
 }
-}
-.h2personalizado{
-    margin-top: -18px;
+.personalizado{
+    margin-top: 9px;
+    color: white;
+    background-image: linear-gradient(to right, var(--cor03), transparent);
+    padding-left: 21px;
+    margin-left: -12.3px;
+    font-family: var(--font-destaque);
+    font-size: 1.8em;
+
 }
 main p{
     text-align: justify;
