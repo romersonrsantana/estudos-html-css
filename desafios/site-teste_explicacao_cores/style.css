@@ -68,17 +68,31 @@ main h2{
     background-image: linear-gradient(to right, var(--cor03), transparent);
     padding-left: 21px;
     margin-left: -12.3px;
+    margin-top: -12px;
     font-family: var(--font-destaque);
     font-size: 1.8em;
 }
+.h2personalizado{
+    margin-top: -18px;
+}
 main p{
     text-align: justify;
+    margin: 15px 0px;
     text-indent: 30px;
     line-height: 2.2em;
     font-family: var(--font-padrao);
 }
+main ul{
+    columns: 2;
+    list-style-position: inside;
+    line-height: 1.5em;
+    list-style-type: circle; 
+}
 main > aside{
-    
+    background-color: var(--cor05);
+    margin: 0px 15px -12px 15px;
+    padding: 12px;
+    border-radius: 12px 12px 0px 0px;  
 }
 footer{
     background-color: rgba(0, 0, 0, 0.712);
