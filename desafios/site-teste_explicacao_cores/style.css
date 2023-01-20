@@ -29,13 +29,15 @@ header h1{
     font-size: 3em;
     padding-top: 16px;
     padding-bottom: 15px;
+    text-shadow: 3px 2px 0px #000000c9;
 }
 header p{
     font-family: var(--font-padrao);
     color: var(--cor04);
     font-weight: bolder;
     font-style: italic;
-    font-size: 1.5em;
+    font-size: 1.6em;
+    text-shadow: 0.3px 0.3px 0px #000000;
 }
 nav{
     background-color:var(--cor01);
