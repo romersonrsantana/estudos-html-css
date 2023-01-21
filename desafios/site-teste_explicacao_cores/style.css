@@ -130,4 +130,51 @@ li.vermelho:hover{
     background-color: red;
     color: white;
     border-radius: 3px;
+}li.amarelo:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 3px;
+}li.laranja:hover{
+    background-color: orangered;
+    color: white;
+    border-radius: 3px;
+}
+li.verde:hover{
+    background-color: green;
+    color: white;
+    border-radius: 3px;
+}
+li.azul:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 3px;
+}
+li.roxo:hover{
+    background-color: purple;
+    color: white;
+    border-radius: 3px;
+}
+li.marrom:hover{
+    background-color: brown;
+    color: white;
+    border-radius: 3px;
+}
+li.preto:hover{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+li.branco:hover{
+    background-color: #df40e73f;
+    border-radius: 3px;
+}
+li.cinza:hover{
+    background-color: grey;
+    color: white;
+    border-radius: 3px;
+}
+li.rosa:hover{
+    background-color: pink;
+    color: white;
+    border-radius: 3px;
 }
