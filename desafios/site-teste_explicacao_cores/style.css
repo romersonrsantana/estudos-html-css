@@ -178,3 +178,7 @@ li.rosa:hover{
     color: white;
     border-radius: 3px;
 }
+abbr{
+    transition: none;
+    text-decoration: solid;
+}
