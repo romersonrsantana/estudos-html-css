@@ -3,4 +3,4 @@
 
 
 
-<a href="https://romersonrsantana.github.io/estudos-html-css/exercicios/ex001/index.hml">executar o exercício 001</a>
+<a href="https://romersonrsantana.github.io/estudos-html-css/exercicios/ex001/index.html">executar o exercício 001</a>
