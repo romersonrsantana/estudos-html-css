@@ -4,31 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>background-size</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
-            height: 98vh;
+            height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-repeat: no-repeat;
             background-position: center top;
             background-size: cover;
-            margin: 18px 0px;
+            background-attachment: fixed;
+            margin: 18px 9px;
             
         }
         header{
             background-color: rgb(0, 183, 255);
-            max-width: 696px;
+            max-width: 412px;
             box-shadow: -9px 6px 12px 0px #000000c2;
             margin: auto;
             padding: 3px;
             border-radius: 9px 0px 0px 0px;
+            
             text-align: center;
         }
         main{
             background-color: white;
-            max-width: 690px;
-            padding: 6px;
+            max-width:402px;
+            padding: 9px;
             margin: auto;
             text-align: justify;
             line-height: 1.8em;
@@ -72,9 +74,9 @@
         }
         footer{
             background-color: lightseagreen;
-            max-width: 698px;
+            max-width: 412px;
             padding: 3px;
-            border-radius:0px 9px;
+            border-radius:0px 0px 9px;
             margin: auto;
             color: white;
             font-size: 1.2em;
@@ -106,35 +108,6 @@
                 </li>
             </ul>
         </p>
-        <article>
-            <h2>Exemplo de repetição de conteúdo</h2>
-            <p>Uma imagem pode ser adaptada na tela de diferentes maneiras dependendo da forma como utilizamos a propriedade background-size, por exemplo:
-                <ul>
-                    <li>Podemos ocupar a viewport utilizando os valores <strong>100% de largura e 100% de altura</strong>. O problema é que dependendo do tamanho da viewport a imagem pode ser distorcida para ocupar a tela.
-                        <p>Utilizando a propriedade: <code>background-size: 100% 100%;</code></p>
-                    </li>
-                    <li>Para não acontecer distorção da imagem e nem cortes, podemos aplicar o que o Youtube utiliza, ou seja, quando é diminuida/aumentada no nosso caso a largura da imagem, vai aparecer tanto acima da imagem quanto embaixo barras, já na altura da imagem quando diminuida/aumentada, vai aparecer barras laterais. Utilizando <strong>contain</strong>.
-                        <p>Utilizando a propriedade: <code>background-size: contain;</code></p>
-                    </li>
-                    <li>Como solução para a imagen não ser distorcida e nem apresentar blocos que preencham as lacunas da imagen, podemos usar <strong>cover</strong>, desta forma a imagem será usada para preencher toda a viewport, porém dependendo do tamanho da tela, não será exibida em sua totalidade.
-                        <p>Propriedade: <code>background-size: cover;</code></p>
-                </li>
-                </ul>
-            </p>
-            <p>Uma imagem pode ser adaptada na tela de diferentes maneiras dependendo da forma como utilizamos a propriedade background-size, por exemplo:
-                <ul>
-                    <li>Podemos ocupar a viewport utilizando os valores <strong>100% de largura e 100% de altura</strong>. O problema é que dependendo do tamanho da viewport a imagem pode ser distorcida para ocupar a tela.
-                        <p>Utilizando a propriedade: <code>background-size: 100% 100%;</code></p>
-                    </li>
-                    <li>Para não acontecer distorção da imagem e nem cortes, podemos aplicar o que o Youtube utiliza, ou seja, quando é diminuida/aumentada no nosso caso a largura da imagem, vai aparecer tanto acima da imagem quanto embaixo barras, já na altura da imagem quando diminuida/aumentada, vai aparecer barras laterais. Utilizando <strong>contain</strong>.
-                        <p>Utilizando a propriedade: <code>background-size: contain;</code></p>
-                    </li>
-                    <li>Como solução para a imagen não ser distorcida e nem apresentar blocos que preencham as lacunas da imagen, podemos usar <strong>cover</strong>, desta forma a imagem será usada para preencher toda a viewport, porém dependendo do tamanho da tela, não será exibida em sua totalidade.
-                        <p>Propriedade: <code>background-size: cover;</code></p>
-                </li>
-                </ul>
-            </p>
-        </article>
     </main>
     <footer>Teste</footer>
 </body>
