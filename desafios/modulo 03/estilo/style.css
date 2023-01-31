@@ -12,11 +12,45 @@ header{
     background-color: black;
     color: white;
     text-align: center;
+    font-variant: small-caps;
 }
 header > h1{
     padding-top: 50px;
 }
-header a, footer a {
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+header > p > a, footer > p > a {
     color: white;
     font-weight: bolder;
+}
+section{
+    padding-top: 12vh;
+    padding-bottom: 12vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.267);
+    width: 400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    text-align: center;
 }
