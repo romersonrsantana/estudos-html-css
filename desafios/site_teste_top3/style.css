@@ -16,7 +16,11 @@ body{
 
 }
 main > header{
+    background-image: linear-gradient(to top,  rgba(0, 0, 0, 0.849), rgba(128, 128, 128, 0.658) );
+    color: white;
     text-align: center;
+    border-radius: 0px 6px 0px 6px;
+    box-shadow: inset 0px 1px 5px 6px #00000054;
     padding-top: 6vh;
     padding-bottom: 6vh;
     
@@ -28,7 +32,7 @@ main{
     padding: 12px;
     border-radius: 6px;
     text-align: justify;
-    background-color: rgba(255, 255, 255, 0.671);
+    background-color: rgba(255, 255, 255, 0.76);
     line-height: 2em;
     font-size: 1.5em;
 }
