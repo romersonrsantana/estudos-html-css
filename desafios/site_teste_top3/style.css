@@ -52,7 +52,15 @@ dl{
 div:hover{
     background-color: rgba(160, 81, 45, 0.192);
     border-radius: 3.4px;
+
     
+}
+div{
+    background-color: rgba(128, 128, 128, 0.63);
+    border-radius: 12px;
+    box-shadow: inset 0px 0.2px 0.2px 0.2px #00000054;
+    padding-left: 6px;
+    font-weight: bolder;
 }
 div > p.escondido{
     display: none;
