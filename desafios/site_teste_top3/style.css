@@ -71,3 +71,16 @@ div:hover > p.escondido{
     text-align: center;
     
 }
+nav{
+    max-width: 758px;
+    min-width: 382px;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.795);
+    border-radius: 6px;
+    padding: 30px;
+    
+}
+footer{
+    background-color: rgb(26, 26, 206);
+}
