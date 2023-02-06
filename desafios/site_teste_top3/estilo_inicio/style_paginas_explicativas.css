@@ -5,6 +5,9 @@
     margin: 0px;
 }
 header{
+    background-color: rgba(0, 0, 0, 0.658)
+}
+header div{
     background-color: rgb(48, 123, 235);
     background-image: url(../imagens/omentalista-header.jpg);
     background-repeat: no-repeat;
@@ -15,4 +18,9 @@ header{
     padding: 30px;
     min-height: 180px;
     margin: auto;
+}
+body{
+    height: 100vh;
+    background-image: url('../imagens/o_mentalista_fundo01.jpg');
+    background-repeat: repeat;
 }
