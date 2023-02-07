@@ -29,4 +29,5 @@ main{
     max-width: 849px;
     min-width: 320px;
     margin: auto;
+    line-height: 3em;
 }
