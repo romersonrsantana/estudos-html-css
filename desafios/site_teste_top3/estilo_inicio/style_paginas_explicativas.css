@@ -26,8 +26,21 @@ body{
 }
 main{
     background-color: rgba(255, 255, 255, 0.651);
-    max-width: 849px;
+    max-width: 831px;
     min-width: 320px;
     margin: auto;
+    padding: 9px;
+
     line-height: 3em;
 }
+li{
+    list-style-position: inside;
+}
+div > p{
+    display: none;
+}
+div:hover > p {
+    display: block;
+    text-align: center;
+}
+
