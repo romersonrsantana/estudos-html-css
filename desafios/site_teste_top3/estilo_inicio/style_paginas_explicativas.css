@@ -5,7 +5,7 @@
     margin: 0px;
 }
 header{
-    background-color: rgba(0, 0, 0, 0.658)
+    background-image: linear-gradient(to top,  rgb(0, 0, 0), gray);
 }
 header div{
     background-color: rgb(48, 123, 235);
@@ -14,7 +14,7 @@ header div{
     background-position: top left;
     background-size: cover;
     max-width: 790px;
-    min-width: 420px;
+    min-width: 320px;
     padding: 30px;
     min-height: 180px;
     margin: auto;
@@ -23,4 +23,10 @@ body{
     height: 100vh;
     background-image: url('../imagens/o_mentalista_fundo01.jpg');
     background-repeat: repeat;
+}
+main{
+    background-color: rgba(255, 255, 255, 0.651);
+    max-width: 849px;
+    min-width: 320px;
+    margin: auto;
 }
