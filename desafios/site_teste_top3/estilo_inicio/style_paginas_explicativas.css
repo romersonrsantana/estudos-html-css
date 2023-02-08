@@ -43,4 +43,19 @@ div:hover > p {
     display: block;
     text-align: center;
 }
+div.video{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.753), rgba(128, 128, 128, 0.87));
+
+    position: relative;
+    padding-bottom: 56.5%;
+
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
 
