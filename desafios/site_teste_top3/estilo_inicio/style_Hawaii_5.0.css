@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../imagens_hawaii/hawaii_five_0_fundo.jpg);
+}
+header{
+    background-image: linear-gradient(to top, rgb(255, 255, 255),rgb(8, 157, 243));
+    
+}
+header > div{
+    max-width: 650px;
+    min-height: 252px;
+    margin: auto;
+    background-image: url(../imagens_hawaii/hawaii_five.0_header.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+
+}
+main{
+    max-width: 650px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.753);
+
+}
