@@ -6,6 +6,7 @@
 }
 body{
     background-image: url(../imagens_hawaii/hawaii_five_0_fundo.jpg);
+    
 }
 header{
     background-image: linear-gradient(to top, rgb(255, 255, 255),rgb(8, 157, 243));
@@ -21,8 +22,22 @@ header > div{
 
 }
 main{
-    max-width: 650px;
+    max-width: 628px;
     margin: auto;
     background-color: rgba(255, 255, 255, 0.753);
+    text-align: justify;
+    line-height: 3em;
+    padding: 12px;
 
+}
+main > h1{
+    text-align: center;
+}
+p{
+    text-indent: 30px;
+}
+li{
+    list-style: circle;
+    list-style-position: inside;
+    margin-bottom: 9px;
 }
