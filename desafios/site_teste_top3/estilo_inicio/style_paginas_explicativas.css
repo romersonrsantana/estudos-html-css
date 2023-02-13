@@ -69,8 +69,9 @@ div.video > iframe{
 
 }
 article.personalizado{
-    background-color: rgba(51, 82, 177, 0.623);
+    background-color: rgba(255, 255, 255, 0.541);
     color: black;
+    font-weight: bolder;
     padding: 0px 6px;
 
 }
