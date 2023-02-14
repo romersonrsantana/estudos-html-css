@@ -57,6 +57,7 @@ li{
     list-style-position: inside;
     line-height: 1.8em;
 
+
 }
 
 li > div{
@@ -69,15 +70,20 @@ li.teste{
     box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.205);
     margin-left: -9px;
     margin-right: -9px;
-    padding-left: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
 }
 
 li.teste02{
     background-color: rgba(255, 255, 255, 0.521);
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.185);
-    margin-left: -9px;
-    margin-right: -9px;
-    padding-left: 12px;
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    margin: -21px -9px;
+
+
 }
 
 div > p{
