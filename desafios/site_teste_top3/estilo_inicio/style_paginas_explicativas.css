@@ -19,11 +19,13 @@ header div{
     min-height: 180px;
     margin: auto;
 }
+
 body{
     height: 100vh;
     background-image: url('../imagens/o_mentalista_fundo01.jpg');
     background-repeat: repeat;
 }
+
 main{
     background-color: rgba(255, 255, 255, 0.651);
     max-width: 831px;
@@ -31,10 +33,15 @@ main{
     margin: auto;
     padding: 9px;
     box-shadow: 1px -2px 4px 5px rgba(0, 0, 0, 0.527);
-    
-
-    line-height: 3em;
+        
 }
+
+main article p{
+    line-height: 3em;
+    text-indent: 30px;
+
+}
+
 h2{
     background-color: rgba(65, 105, 225, 0.815);
     padding: 3px;
@@ -42,16 +49,45 @@ h2{
     box-shadow: inset 1px 1px 4px 0px rgba(0, 0, 0, 0.425);
     color: azure;
 }
+
 li{
     list-style-position: inside;
+    line-height: 1.8em;
+
 }
+
+li > div{
+    margin-top: 6px;
+    margin-bottom: 21px;
+}
+
+li.teste{
+    background-color: rgba(255, 255, 255, 0.87);
+    margin-left: -9px;
+    margin-right: -9px;
+    padding-left: 12px;
+    font-weight: bolder;
+
+
+}
+
+li.teste02{
+    background-color: rgba(255, 255, 255, 0.521);
+    font-weight: bolder;
+    margin-left: -9px;
+    margin-right: -9px;
+    padding-left: 12px;
+}
+
 div > p{
     display: none;
 }
+
 div:hover > p {
     display: block;
     text-align: center;
 }
+
 div.video{
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.753), rgba(128, 128, 128, 0.87));
     box-shadow: inset 2px 1px 4px 2px rgba(0, 0, 0, 0.589);
@@ -68,14 +104,7 @@ div.video > iframe{
     height: 90%;
 
 }
-li.teste{
-    background-color: rgba(255, 255, 255, 0.87);
-    font-weight: bolder;
-}
-li.teste02{
-    background-color: rgba(255, 255, 255, 0.521);
-    font-weight: bolder;
-}
+
 article.personalizado{
     background-color: rgba(255, 255, 255, 0.541);
     color: black;
