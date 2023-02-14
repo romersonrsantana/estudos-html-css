@@ -86,6 +86,9 @@ div > p{
 div:hover > p {
     display: block;
     text-align: center;
+    color: royalblue;
+    background-color: rgba(41, 65, 136, 0.637);
+    margin-left: -12px;
 }
 
 div.video{
@@ -115,5 +118,11 @@ article.personalizado{
 article.personalizado > h2{
     margin-left: -6px;
     margin-right: -6px;
+}
+strong{
+    color: white;
+    background-color: rgba(60, 96, 206, 0.884);
+    padding: 2px;
+    border-radius: 0px 3px;
 }
 
