@@ -90,11 +90,16 @@ div > p{
 
 div:hover > p {
     display: block;
-    text-align: center;
     color: royalblue;
-    background-color: rgba(41, 65, 136, 0.637);
-    margin-left: -12px;
+    background-image: linear-gradient(to top, rgba(41, 65, 136, 0.637), rgba(62, 98, 204, 0.705) ); 
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.466);
+    text-align: center;
+    padding-top: 36px;
+    margin-left: -36px;
+    margin-right: -36px;
+
 }
+
 ol > li{
     margin: 16px 36px 6px 36px;
 }
