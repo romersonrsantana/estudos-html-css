@@ -39,8 +39,10 @@ main{
 }
 
 main article p{
-    line-height: 3em;
+    line-height: 2.1em;
     text-indent: 30px;
+    margin-left: 12px;
+    margin-right: 36px;
 
 }
 
@@ -71,7 +73,7 @@ li.teste{
     margin-left: -9px;
     margin-right: -9px;
     padding-left: 36px;
-    padding-right: 36px;
+    padding-right: 34px;
 }
 
 li.teste02{
