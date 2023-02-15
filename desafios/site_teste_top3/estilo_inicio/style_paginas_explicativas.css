@@ -158,6 +158,10 @@ a{
     color: royalblue;
     font-weight: bolder;
 }
+a.externo::after{
+    content: '\1F517';
+
+}
 a:hover{
     background-color: royalblue;
     padding: 3px;
