@@ -9,7 +9,7 @@ body{
     
 }
 header{
-    background-image: linear-gradient(to bottom, rgb(255, 255, 255) 43%, transparent );
+    background-image: linear-gradient(to top, transparent, rgb(255, 255, 255), rgb(15, 110, 218) );
     
 }
 header > div{
