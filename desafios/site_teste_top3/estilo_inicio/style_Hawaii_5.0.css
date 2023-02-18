@@ -77,3 +77,33 @@ div:hover > p{
     display: block;
     text-align: center;
 }
+
+nav{
+    max-width: 778px;
+    min-width: 320px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 6px;
+    padding: 15px;
+}
+
+nav > a{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 6px;
+    line-height: 2em;
+    border-radius: 12px;
+    font-size: 1.6em;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    background-color: rgb(15, 110, 218);
+    color: white;
+}
+.menu{
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+}
