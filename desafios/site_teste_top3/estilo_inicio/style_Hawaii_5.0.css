@@ -23,12 +23,15 @@ header > div{
 }
 main{
     max-width: 780px;
+    min-width: 320px;
     margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
     background-color: rgba(255, 255, 255, 0.753);
     text-align: justify;
     line-height: 3em;
     padding: 12px;
-
+    
 }
 main > h1{
     text-align: center;
