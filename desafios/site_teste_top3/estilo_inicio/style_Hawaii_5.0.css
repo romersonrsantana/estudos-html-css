@@ -4,14 +4,17 @@
     padding: 0px;
     margin: 0px;
 }
+
 body{
     background-image: url(../imagens_hawaii/hawaii_five_0_fundo.jpg);
     
 }
+
 header{
     background-image: linear-gradient(to top, transparent, rgb(255, 255, 255), rgb(15, 110, 218) );
     
 }
+
 header > div{
     max-width: 803px;
     min-height: 312px;
@@ -21,6 +24,7 @@ header > div{
     background-position: left center;
 
 }
+
 main{
     max-width: 780px;
     min-width: 320px;
@@ -28,25 +32,35 @@ main{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.2em;
     background-color: rgba(255, 255, 255, 0.753);
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.575);
     text-align: justify;
     line-height: 3em;
     padding: 12px;
     
 }
+
 main > h1{
     text-align: center;
 }
+
+main > h2{
+
+}
+
 p{
     text-indent: 30px;
 }
+
 li{
     list-style: circle;
     list-style-position: inside;
     margin-bottom: 9px;
 }
+
 div > p{
     display: none;
 }
+
 div:hover > p{
     display: block;
     text-align: center;
