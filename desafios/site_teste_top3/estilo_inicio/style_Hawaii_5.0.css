@@ -129,11 +129,24 @@ div > p{
 
 div:hover > p{
     display: block;
-    text-align: center;
+    text-align: center; 
     background-image: linear-gradient(to top, transparent, rgb(255, 255, 255), rgba(172, 172, 172, 0.836) );
     margin-left: -12px;
     margin-right: -12px;
     padding-top: 28.16px;
+}
+p.imagem{
+    position: relative;
+    height: 76vh;
+
+}
+p.imagem > picture{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-52.2%, -50%);
+    
 }
 
 nav{
