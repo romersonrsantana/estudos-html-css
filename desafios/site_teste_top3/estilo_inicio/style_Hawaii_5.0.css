@@ -29,14 +29,22 @@ main{
     max-width: 780px;
     min-width: 320px;
     margin: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     background-color: rgba(255, 255, 255, 0.753);
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.575);
     text-align: justify;
     line-height: 3em;
     padding: 12px;
     
+}
+
+main > article > p{
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0.815);
+    padding: 6px;
+
 }
 
 main > h1{
@@ -67,6 +75,8 @@ li{
     list-style: circle;
     list-style-position: inside;
     margin-bottom: 9px;
+    margin-left: 36px;
+    margin-right: 36px;
 }
 
 div > p{
