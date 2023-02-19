@@ -78,6 +78,14 @@ li{
     margin-left: 36px;
     margin-right: 36px;
 }
+li.personalizada_azul{
+    background-color: rgba(75, 119, 250, 0.664);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.116);
+    margin-top: 15px;
+    padding: 0px 12px;
+    border-radius: 12px;
+
+}
 
 div > p{
     display: none;
