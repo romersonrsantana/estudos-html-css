@@ -86,6 +86,26 @@ li.personalizada_azul{
     border-radius: 12px;
 
 }
+li.personalizada_branco_danny{
+    background-color: white;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.116);
+    padding: 0px 12px;
+    margin-bottom: 0.3px;
+    border-radius: 12px 12px 0px 0px;
+}
+li.personalizada_branco_kono{
+    background-color: white;
+    box-shadow: inset 1px 0px 1px rgba(0, 0, 0, 0.116);
+    padding: 0px 12px;
+    border-radius: 0px 0px 12px 12px;
+
+}
+li.personalizada_branco{
+    background-color: white;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.116);
+    padding: 0px 12px;
+    border-radius: 12px;
+}
 
 div > p{
     display: none;
