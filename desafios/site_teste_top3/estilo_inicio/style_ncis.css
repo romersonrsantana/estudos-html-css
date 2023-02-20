@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+header > div{
+    max-width: 796px;
+    min-height: 250px;
+    background-color: blue;
+    background-image: url(../imagens_ncis/ncis_header.jpg);
+    
+}
