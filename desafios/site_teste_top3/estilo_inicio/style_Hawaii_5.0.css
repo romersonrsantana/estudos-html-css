@@ -122,6 +122,14 @@ span.branco{
     color: white;
     font-weight: bolder;
 }
+span.destaque{
+    background-color: rgba(53, 147, 255, 0.26);
+    color: blue;
+    font-weight: bolder;
+    padding: 3px;
+    border-radius: 0px 3px;
+
+}
 
 div > p{
     display: none;
@@ -137,13 +145,14 @@ div:hover > p{
 }
 p.imagem{
     position: relative;
-    height: 76vh;
+    height: 96vh;
 
 }
 p.imagem > picture{
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 54%;
+    
 
     transform: translate(-52.2%, -50%);
     
