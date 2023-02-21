@@ -143,20 +143,6 @@ div:hover > p{
     margin-right: -12px;
     padding-top: 28.16px;
 }
-p.imagem{
-    position: relative;
-    height: 96vh;
-
-}
-p.imagem > picture{
-    position: absolute;
-    left: 50%;
-    top: 54%;
-    
-
-    transform: translate(-52.2%, -50%);
-    
-}
 
 nav{
     max-width: 778px;
