@@ -13,8 +13,8 @@ header > div{
     min-height: 300px;
     background-color: rgba(3, 3, 83, 0.89);
     background-image: url(../imagens_ncis/ncis_header.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: left center;
     margin: auto;
     
 }
