@@ -1,2 +1,36 @@
 @charset "UTF-8";
 
+body{
+    background-image: linear-gradient(to left, gray, rgb(61, 60, 60));
+    margin-top: 90px;
+    
+    
+}
+main{
+    background-color: white;
+    max-width: 900px;
+    min-height: 320px;
+    margin: auto;
+    padding: 12px;
+    border-radius: 0px 36px;
+    box-shadow: inset 0px 0px 0.6px 1.2px rgba(0, 0, 0, 0.527);
+}
+
+table{
+    width: 60%;
+    height: 150px;
+    border-collapse: collapse;
+}
+
+
+td{
+    border: solid black 1px;
+    padding: 9px;
+    
+}
+
+td.alinhamento_vertical_teste{
+    vertical-align: bottom;
+    text-align: right;
+    padding-left: 1px;
+}
