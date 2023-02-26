@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to top, gray, rgb(58, 58, 58));
+}
+
+main{
+    max-width: 830px;
+    min-width: 320px;
+    background-color: white;
+    margin: auto;
+    padding: 36px;
+}
+
+table{ 
+    border-collapse: collapse;
+    margin: auto;
+    width: 60%;
+}
+
+td, th{
+    border: solid black 1px;
+    padding: 12px;
+}
+
+td.numero{
+    text-align: right;
+}
+
+thead, tfoot{
+    background-color: gray;
+    color: white;
+}
