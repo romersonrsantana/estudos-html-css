@@ -23,11 +23,19 @@ main{
     padding: 36px;
 }
 
+caption{
+    background-color: green;
+    padding-top: 3px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
 table{ 
     border-collapse: collapse;
     background-color: white;
     margin: auto;
-    width: 60%;
+    width: 69%;
 }
 
 td, th{
@@ -37,6 +45,17 @@ td, th{
 
 td.numero{
     text-align: right;
+    width: 120px;
+}
+
+td.estado{
+    width: 150px;
+}
+
+td:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
 }
 
 thead, tfoot{
