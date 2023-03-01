@@ -36,6 +36,8 @@ table{
     background-color: white;
     margin: auto;
     width: 69%;
+
+    position: relative;
 }
 
 tbody > tr:nth-child(2n){
@@ -65,4 +67,10 @@ td:hover{
 thead, tfoot{
     background-color: gray;
     color: white;
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: gray;
 }
