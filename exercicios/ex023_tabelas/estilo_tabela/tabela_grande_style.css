@@ -38,6 +38,10 @@ table{
     width: 69%;
 }
 
+tbody > tr:nth-child(2n){
+    background-color: lightgrey;
+}
+
 td, th{
     border: solid black 1px;
     padding: 12px;
