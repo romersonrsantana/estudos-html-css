@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td{
+    border: solid black 1px;
+    padding: 12px;
+    width: 150px;
+    text-align: center;
+}
+
+td:hover{
+    background-color: blue;
+    color: white;
+}
