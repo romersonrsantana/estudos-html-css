@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+#container{
+    background-color: rgb(71, 0, 71);
+
+    position: relative;
+}
+#conteudo{
+    background-color: rgb(168, 143, 0);
+    max-width: 750px;
+    min-width: 320px;
+    padding: 30px;
+    border-radius: 3px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, 50%);
+}
+
+
 table{
     margin: auto;
     border-collapse: collapse;
@@ -15,4 +35,16 @@ td{
 td:hover{
     background-color: blue;
     color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+td:hover > a{
+    background-color: white;
+    padding: 12px;
+    border-radius: 6px;
+    color: blue;
+
 }
