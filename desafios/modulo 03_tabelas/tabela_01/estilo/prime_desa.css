@@ -2,7 +2,22 @@
 
 body{
     background-image: url(../imagens/img_fundo.jpg);
-    margin-top: 150px;
+    margin-top: 30px;
+}
+
+header{
+    background-color: rgba(223, 98, 53, 0.952);
+    min-height: 126px;
+    color: rgb(25, 35, 39);
+    margin: -30px -9px 81px -9px;
+
+}
+header > h1{
+    text-align: center;
+    padding-top: 30px;
+    font-family: monospace, sans-serif;
+    font-size: 3em;
+    text-shadow: 2px 3px 9px rgba(0, 0, 0, 0.747);
 }
 
 main#container{
