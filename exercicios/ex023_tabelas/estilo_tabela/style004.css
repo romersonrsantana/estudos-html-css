@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(102, 102, 241);
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 830px;
+}
+
+
+table{
+    border-collapse: collapse;
+
+}
+
+td{
+    border: solid black 1.2px;
+    padding: 12px;
+}
+th{
+    border: solid black 1.2px;
+    padding: 12px;
+}
