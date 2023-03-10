@@ -1,27 +1,43 @@
 @charset "UTF-8";
 
+header{
+    max-width: 830px;
+    min-width: 530px;
+    min-height: 250px;
+    background-image: url(../header_tabela04.jpg);
+    background-position: right bottom;
+    margin: auto;
+}
+
+
 body{
     background-color: rgb(102, 102, 241);
-    margin-top: 36px;
+
+   
 }
 
 main{
     background-color: white;
     margin: auto;
     max-width: 830px;
+    min-width: 530px;
+    
 }
 
 
 table{
     border-collapse: collapse;
+    width: 36%;
 
 }
 
 td{
     border: solid black 1.2px;
     padding: 12px;
+    
 }
 th{
     border: solid black 1.2px;
     padding: 12px;
+    
 }
