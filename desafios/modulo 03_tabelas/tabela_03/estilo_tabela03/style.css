@@ -9,4 +9,9 @@ table{
 }
 th{
     border: solid black 1.8px;
+    padding: 6px;
+}
+td{
+    border: solid black 1.8px;
+    padding: 12px;
 }
