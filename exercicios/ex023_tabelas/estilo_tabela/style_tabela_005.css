@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: solid black 1.8px;
+    padding: 9px;
+    width: 480px;
+}
+
+
+
+col.cnome{
+    background-color: rgb(176, 241, 111);
+
+}
