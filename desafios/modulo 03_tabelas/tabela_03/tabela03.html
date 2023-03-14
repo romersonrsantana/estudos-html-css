@@ -11,18 +11,24 @@
     <main id="container">
         <table id="conteudo">
             <thead>
+                <colgroup>
+                    <col class="area">
+                    <col class="disciplina">
+                    <col class="nota">
+                
+                </colgroup>
                 <tr>
-                    <th rowspan="2">Área</th>
-                    <th rowspan="2">Disciplinas</th>
-                    <th colspan="2">Notas</th>
-                    <th rowspan="2">Média</th>
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplinas</th>
+                    <th colspan="2" scope="col">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
                 </tr>
                 <tr>
-                    <th>Nota 1</th>
-                    <th>Nota 2</th>
+                    <th scope="col">Nota 1</th>
+                    <th scope="col">Nota 2</th>
                 </tr>
                 <tr>
-                    <th rowspan="3">Exatas</th>
+                    <th rowspan="3" scope="row">Exatas</th>
                     <td>Matemática</td>
                     <td>0.0</td>
                     <td colspan="1">0.0</td>
@@ -41,11 +47,11 @@
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th colspan="4">Média de Exatas</th>
+                    <th colspan="4" scope="row">Média de Exatas</th>
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th rowspan="2">Humanas</th>
+                    <th rowspan="2" scope="row">Humanas</th>
                     <td>História</td>
                     <td>0.0</td>
                     <td>0.0</td>
@@ -58,7 +64,7 @@
                     <td>0.0</td>
                 </tr>
                 <tr>
-                    <th colspan="4">Média de Humanas</th>
+                    <th colspan="4" scope="row">Média de Humanas</th>
                     <td>0.0</td>
                 </tr>
                 

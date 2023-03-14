@@ -28,6 +28,13 @@ table#conteudo{
     transform: translate(-50%, -50%);
 
 }
+
+col.area{
+    background-color: rgb(180, 247, 114);
+}
+col.nota{
+    background-color: rgb(178, 250, 178);
+}
 th{
     border: solid black 1.8px;
     padding: 6px;
