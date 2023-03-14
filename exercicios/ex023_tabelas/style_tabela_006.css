@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(214, 208, 208);
+}
+main#container{
+    background-color: darkolivegreen;
+    margin: auto;
+    max-width: 830px;
+    padding: 30px;
+
+    position: relative;
+    height: 89vh;
+}
+table#conteudo{
+    background-color: white;
+    border-collapse: collapse;
+    
+    
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+    
+}
+td, th{
+    border: solid black 1.8px;
+    padding: 6px;
+
+}
+div#responsivo
