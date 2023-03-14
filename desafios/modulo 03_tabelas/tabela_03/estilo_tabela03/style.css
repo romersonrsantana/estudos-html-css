@@ -1,10 +1,31 @@
 @charset "UTF-8";
 
+body{
+    margin-top: 60px;
+}
+
+main#container{
+    margin: auto;
+    background-color: forestgreen;
+    padding: 30px;
+    border-radius: 6px;
+    max-width: 570px;
+
+    height: 56vh;
+
+    position: relative;
+}
 
 
-
-table{
+table#conteudo{
     border-collapse: collapse;
+    background-color: white;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 
 }
 th{
