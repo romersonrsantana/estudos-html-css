@@ -3,26 +3,10 @@
 body{
     background-color: rgb(214, 208, 208);
 }
-main#container{
-    background-color: darkolivegreen;
-    margin: auto;
-    max-width: 830px;
-    padding: 30px;
-
-    position: relative;
-    height: 89vh;
-}
-table#conteudo{
+table{
     background-color: white;
     border-collapse: collapse;
-    
-    
-
-    position: absolute;
-    left: 50%;
-    top: 50%;
-
-    transform: translate(-50%, -50%);
+    margin: auto;
     
 }
 td, th{
@@ -30,4 +14,6 @@ td, th{
     padding: 6px;
 
 }
-div#responsivo
+div#container{
+    overflow-x: auto;
+}
