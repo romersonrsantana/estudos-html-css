@@ -1,16 +1,41 @@
 @charset "UTF-8";
 
+body{
+    margin-top: 30px;
+}
+main#container{
+    background-color: olivedrab;
+    margin: auto;
+    max-width: 840px;
+    border-radius: 6px;
+    padding: 30px;
 
-
-
-table{
+    position: relative;
+    height: 63vh;
+}
+h1{
+    color: white;
+}
+table#conteudo{
     border-collapse: collapse;
+    background-color: white;
+    width: 480px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+caption{
+    color: white;
+    font-weight: bolder;
+    font-size: 1.8em;
 }
 
 td, th{
     border: solid black 1.8px;
     padding: 9px;
-    width: 480px;
 }
 
 
