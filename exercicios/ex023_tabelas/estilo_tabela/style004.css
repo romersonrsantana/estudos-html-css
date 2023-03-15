@@ -21,19 +21,26 @@ main{
     margin: auto;
     max-width: 830px;
     min-width: 530px;
-    
+    height: 360px;
 }
 
+div#container{
+    overflow-x: auto;
+}
 
 table{
     border-collapse: collapse;
-    width: 36%;
+    margin: auto;
+    
+    
+    
 
 }
 
 td{
     border: solid black 1.2px;
     padding: 12px;
+    
     
 }
 th{
