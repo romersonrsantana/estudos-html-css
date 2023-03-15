@@ -17,12 +17,14 @@
     top: 50%;
 
     transform: translate(-50%, 50%);
+    
 }
 
 
 table{
     margin: auto;
     border-collapse: collapse;
+    overflow: auto;
 }
 
 td{
@@ -47,4 +49,14 @@ td:hover > a{
     border-radius: 6px;
     color: blue;
 
+}
+col#b{
+    background-color: rgb(82, 70, 158);
+}
+col#A,#C{
+    background-color: rgb(1, 125, 167);
+}
+caption{
+    font-size: 2em;
+    font-family: verdana;
 }
