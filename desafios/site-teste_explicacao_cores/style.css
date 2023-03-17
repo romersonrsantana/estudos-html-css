@@ -57,6 +57,7 @@ nav.personalizada{
     margin-left: -12px;
     margin-right: -12px;
     margin-bottom: -12px;
+    margin-top: 15px;
 }
 nav a, .personalizada a{ 
     color: var(--cor03);
