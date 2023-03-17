@@ -62,6 +62,9 @@ div.ncis{
     text-align: center;
     margin-left: -36px;
 }
+div.ncis > ul > li{
+    margin-bottom: 15px;
+}
 
 nav{
     max-width: 796px;
