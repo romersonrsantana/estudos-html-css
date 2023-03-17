@@ -58,6 +58,10 @@ h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
 }
+div.ncis{
+    text-align: center;
+    margin-left: -36px;
+}
 
 nav{
     max-width: 796px;
