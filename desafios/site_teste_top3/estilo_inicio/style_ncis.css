@@ -98,6 +98,10 @@ nav > a:hover{
     background-color: rgba(255, 255, 255, 0.829);
     color: black;
 }
+blockquote{
+    text-align: left;
+    margin-top: -6px;
+}
 
 footer{
     background-color: blue;

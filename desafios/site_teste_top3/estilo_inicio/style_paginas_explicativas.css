@@ -91,6 +91,7 @@ div > p{
     display: none;
 }
 
+
 div:hover > p {
     display: block;
     color: royalblue;
@@ -205,3 +206,5 @@ nav a{
     margin-right: 15px;
     text-decoration: none;
 }
+
+
