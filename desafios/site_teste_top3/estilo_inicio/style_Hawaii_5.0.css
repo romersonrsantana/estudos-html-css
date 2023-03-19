@@ -174,3 +174,15 @@ nav > a:hover{
     text-align: center;
     font-size: 1.6em;
 }
+footer{
+    height: 36px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.205), rgba(255, 255, 255, 0.856));
+
+}
+footer > p{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 12px;
+    font-size: 1.2em ;
+
+}
