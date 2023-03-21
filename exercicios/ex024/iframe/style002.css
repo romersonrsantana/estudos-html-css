@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    background-color: royalblue;
+}
+
+h1{
+    color: white;
+    font-size: 3.1em;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
+    font-size: 1.2em;
+}
+iframe{
+    display: block;
+    margin: auto;
+}
