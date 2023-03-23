@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Uso de iframes</title>
+    <link rel="stylesheet" href="iframe/style_003.css">
 </head>
 <body>
     <h1>Faça uma escolha</h1>
     <p>Considerando o conceito de iframe com links de navegação.</p>
     
     <ul>
-        <li><a href="#">Primeira página</a></li>
-        <li><a href="#">Segunda página</a></li>
+        <li><a href="iframe001.html" target="frame">Primeira página</a></li>
+        <li><a href="iframe002.html" target="frame">Segunda página</a></li>
         <li><a href="#">Terceira página</a></li>
     </ul>
 
     <p>Usando o guia de navegação podemos mostrar o conteudo na mesma página sem a necessidade de abrir outra aba.</p>
 
-    <iframe src="" id="tela">
+    <iframe src="" id="tela" name="frame">
 
         <p>Infelizmente seu navegador não é compativel.</p>
     </iframe>
