@@ -1,8 +1,17 @@
 @charset "UTF-8";
 body{
     background-color: forestgreen;
+    font-family: Arial, Helvetica, sans-serif;
 }
 form{
     background-color: gray;
     padding: 12px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.486);
 }
+input.clicar:hover{
+    box-shadow: 3px 3px 6px black;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+    
