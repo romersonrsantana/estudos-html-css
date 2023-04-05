@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Estado</legend>
+            <label for="idestado">Estado</label>
+            <select name="estado" id="idestado">
+                <option value="" selected>---escolha um estado---</option>
+                <optgroup label="Região Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+                <optgroup label="Região Nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                </optgroup>
+            </select>
+        
+        </fieldset>
+        <fieldset>
+            <legend>Profissão</legend>
+            <p>
+                <label for="iprof">Profissão</label>
+                <input type="text" name="prof" id="iprof" list="lista-profissao">
+                <datalist id="lista-profissao">
+                    <option value="adm">Administrador</option>
+                    <option value="cont">Contador</option>
+                    <option value="desen">Desenvolvedor</option>
+                    <option value="prof">Professor</option>
+                </datalist id="lista-profissao">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem</legend>
+            Escreva sua Mensagem
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="sua mensagem aqui..."></textarea>
+        </fieldset>
+
+    <input type="reset" value="Limpar">
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
