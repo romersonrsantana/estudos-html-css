@@ -1,2 +1,32 @@
 @charset "UTF8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: gray;
+}
+header > h1{
+    padding: 12px;
+    text-align: center;
+}
+
+menu{}
+
+menu > ul{
+    list-style-type: none;
+}
+menu > ul > li > a{
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    background-color: lightgray;
+    color: white;
+    border-top: 1px solid black;
+}
+menu > ul > li > a:hover{
+    background-color: rgb(75, 75, 75);
+}
