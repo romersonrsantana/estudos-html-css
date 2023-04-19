@@ -11,8 +11,8 @@
 <body>
     <header>
         <h1>Meu site</h1>
-        <i id="burguer" class="material-icons">menu</i>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Opção A</a></li>
                 <li><a href="#">Opção B</a></li>
@@ -27,5 +27,10 @@
         <article></article>
     </main>
     
+    <script>
+        function clickMenu(){
+            itens.style.display = 'block'
+        }
+    </script>
 </body>
 </html>
