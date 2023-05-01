@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+header{
+    background-image: url(../imagens/img-retrato.jpg);
+    background-repeat: repeat;
+}
+main{
+    max-width: 85%;
+}

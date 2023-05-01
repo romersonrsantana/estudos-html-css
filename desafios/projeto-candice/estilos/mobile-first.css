@@ -15,6 +15,10 @@
 
 header{
     background-color: var(--cor-nivelB);
+    background-image: url(../imagens/images.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    height: 169px;
     color: white;
     text-align: center;
     
