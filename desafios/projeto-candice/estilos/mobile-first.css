@@ -50,4 +50,8 @@ main p{
 
 section > div{
     background-color: var(--cor-nivelE);
+    background-image: url(../imagens/cheg_cand.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 250px;
 }
