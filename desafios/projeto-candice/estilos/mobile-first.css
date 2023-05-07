@@ -50,8 +50,23 @@ main p{
 
 section > div{
     background-color: var(--cor-nivelE);
-    background-image: url(../imagens/cheg_cand.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 250px;
+}
+
+div#paragraf-1{
+    background-image: url(../imagens/cheg_cand.jpg);
+}
+div#paragraf-2{
+    background-image: url(../imagens/cand-2.jpg);
+}
+div#paragraf-3{
+    background-image: url(../imagens/cand-3.jpg);
+}
+div#paragraf-4{
+    background-image: url(../imagens/dumar-4.jpg);
+}
+div#paragraf-5{
+    background-image: url(../imagens/cand-5.jpg);
 }
