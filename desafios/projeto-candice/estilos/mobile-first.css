@@ -47,3 +47,7 @@ main p{
     line-height: 1.5em;
     margin: 12px;
 }
+
+section > div{
+    background-color: var(--cor-nivelE);
+}
